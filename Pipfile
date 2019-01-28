@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==2.1"
+django-environ = "==0.4.5"
+dj-database-url = "==0.5.0"
+psycopg2-binary = "==2.7.7"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
