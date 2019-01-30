@@ -15,4 +15,6 @@ COPY ./docker/django/start.sh /start.sh
 RUN sed -i 's/\r//' /start.sh
 RUN chmod +x /start.sh
 
+COPY . .
+
 EXPOSE 8000
